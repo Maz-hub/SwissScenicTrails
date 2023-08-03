@@ -1,0 +1,20 @@
+{
+  "name": "swissscenictrails",
+  "version": "1.0.0",
+  "description": "Landing page for hiking adventures across the Swiss Riviera, nature-inspired color scheme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w sass/ -o css/"
+  },
+  "keywords": [
+    "hiking",
+    "Swiss",
+    "Riviera"
+  ],
+  "author": "Maz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

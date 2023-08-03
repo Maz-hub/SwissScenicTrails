@@ -1,0 +1,89 @@
+:root {
+  --clr-primary: hsl(341, 24%, 13%);
+  --clr-primary-light: hsl(25, 18%, 44%);
+  --clr-primary-dark: hsla(342, 22%, 9%, 0.964);
+  --clr-accent-light-1: hsl(197, 27%, 33%);
+  --clr-accent-light-2: hsl(196, 28%, 36%);
+  --clr-notifications: hsl(49, 94%, 68%);
+  --clr-notifications-dark: hsl(49, 86%, 51%);
+  --clr-text: hsl(0, 0%, 20%);
+
+  --clr-grey-Light-1: hsl(0, 9%, 98%);
+  --clr-grey-Light-2: hsl(0, 8%, 95%);
+  --clr-grey-Light-3: hsl(0, 6%, 94%);
+  --clr-grey-Light-4: hsl(0, 0%, 80%);
+
+  --clr-grey-dark-2: hsl(0, 0%, 33%);
+  --clr-grey-dark-3: hsl(0, 0%, 60%);
+
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.2);
+  --shadow-light: 0 2rem 5rem rgba(182, 182, 182, 0.55);
+  --border-bottom: 1px solid var(--clr-grey-Light-2);
+}
+
+$bp-largest: 81.25em; // 1300px
+$bp-large: 76.26em; // 1220px
+$bp-mid-large: 64.375em; // 1030px
+$bp-medium: 56.25em; // 900px
+$bp-midium-hor: 51.25em; // 820px
+$bp-small: 37.5em; // 600px
+$bp-extra-small: 31.25em; // 500px
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit !important;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and (min-width: $bp-large) {
+    font-size: 75%;
+  }
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--clr-text);
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--clr-grey-Light-1),
+    var(--clr-grey-Light-2)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+b {
+  margin-right: 0.4rem;
+}
