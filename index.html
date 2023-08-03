@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>SwissScenicTrails</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img
+          src="img/hiking-holiday-tourism-svgrepo-com.svg"
+          alt="SwissScenicTrails Logo"
+          class="logo"
+        />
+
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search itineraries"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+
+          <div class="user-nav__user">
+            <img
+              src="img/active-user.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Lily</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-leaf"></use>
+                </svg>
+                <span>Forest</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-line-graph"></use>
+                </svg>
+                <span>Mountain</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Lakeside</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-address"></use>
+                </svg>
+                <span>Landmarks</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="legal">
+            &copy; 2023 by SwissScenicTrails. <br />All rights reserved.
+          </div>
+        </nav>
+
+        <main class="view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/RibePhoto_3.JPG"
+                alt="Photo of forest"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="img/RibePhoto_1.JPG"
+                alt="Photo of mountains"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="img/RibePhoto_2.JPG"
+                alt="Photo of lake"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Rochers-de-Naye Forest Trail</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-star">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Montreux, Swiss Riviera</button>
+            </div>
+
+            <div class="overview__rating">
+              <div class="overview__rating-average">
+                9.4
+                <div class="overview__rating-count">777 Votes</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="description">
+              <p class="paragraph">
+                Embark on the captivating Rochers-de-Naye trail from the heart
+                of Montreux. Traverse through the dense Swiss forest and be
+                enveloped by nature's beauty.
+              </p>
+
+              <p class="paragraph">
+                This enchanting trail climaxes at the summit of Rochers-de-Naye,
+                offering breathtaking views of Lake Geneva and the Alpine
+                panorama. An adventure not to be missed!
+              </p>
+              <ul class="list">
+                <li class="list__item">
+                  <b>Start Point: </b> Montreux Station
+                </li>
+                <li class="list__item"><b>Duration: </b> 5-6 Hours</li>
+                <li class="list__item"><b>Terrain: </b> Diverse Landscapes</li>
+                <li class="list__item">
+                  <b>Difficulty: </b> Moderately Challenging
+                </li>
+
+                <li class="list__item"><b>Views: </b> Lake Geneva, Alps</li>
+                <li class="list__item"><b>Versatility: </b> Cogwheel Option</li>
+                <li class="list__item"><b>Summit: </b> Marmot Park</li>
+                <li class="list__item">
+                  <b>Wildlife: </b> Chamois, Foxes, etc.
+                </li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Mark and 3 other friends highly recommends this hike.
+                </p>
+                <div class="recommende__friends">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="Friend 1"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="Friend 2"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-3.jpg"
+                    alt="Friend 3"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-1.jpg"
+                    alt="Friend 4"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Rochers-de-Naye's trail offers challenging terrain with
+                  unmatched wildlife encounters and breathtaking Alpine views. A
+                  must-try!
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-6.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Jane Doe</p>
+                    <p class="review__user-date">17th of May 2023</p>
+                  </div>
+                  <div class="review__rating">9.4</div>
+                </figcaption>
+              </figure>
+
+              <figure class="review">
+                <blockquote class="review__text">
+                  An excellent trail, well-marked paths, diverse wildlife, and
+                  the stunning views from the summit are simply phenomenal.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-7.jpg"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">John Smith</p>
+                    <p class="review__user-date">30th of July 2023</p>
+                  </div>
+                  <div class="review__rating">9.0</div>
+                </figcaption>
+              </figure>
+
+              <button class="btn-inline">Show more <span>&rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Embark on an Unforgettable Alpine Adventure Now!
+            </h2>
+            <button class="btn">Start Hiking</button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
